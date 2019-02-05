@@ -3,12 +3,11 @@ class Database
 {
 	// these are not the real passwords
 	// for real passwords, see file in ../database subdirectory
-	private static $dbName = 'crud_tutorial' ; 
-	private static $dbHost = 'localhost' ;
+	private static $dbName = 'projects';
+	private static $dbHost = 'localhost';
 	private static $dbUsername = 'root';
-	private static $dbUserPassword = 'root';
-	
-	private static $cont  = null;
+	private static $dbUserPassword = '';
+	private static $cont = null;
 	
 	public function __construct() {
 		exit('Init function is not allowed');
